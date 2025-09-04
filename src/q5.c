@@ -16,7 +16,7 @@ int main() {
             factorial *= i; // Multiply factorial by the current number
             i++; // Increment the counter
         }
-        printf("Factorial of %d = %llu\n", n, factorial);
+        printf("Factorial = %llu\n", factorial);
     }
 
     return 0;
