@@ -9,8 +9,7 @@ int main() {
     printf("Multiplication table of %d:\n", n);
     do {
         printf("%d x %d = %d\n", n, i, n * i);
-        i++; // Increment the counter
-    } while (i <= 10); // Continue until i is greater than 10
-
+        i++; 
+    } while (i <= 10); 
     return 0;
 }
